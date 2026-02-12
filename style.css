@@ -1,0 +1,456 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+@font-face {
+  font-family: myfont;
+  src: url("./A-Iranian-Sans/Iranian\ Sans.ttf");
+  
+}
+body {
+  font-family: myfont;
+  
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    height: 100px;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding-top: 15px;
+
+}
+.dokme{
+    border-radius: 50%;
+    width: 97px;
+    height: 50px;
+    background-color: #3b82f6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dokme img{
+    width: 60%;
+    margin: auto;
+}
+.logo{
+    width: 250px;
+    height: 40px;
+
+}
+.titr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    direction: rtl;
+    font-size: small;
+    font-weight: bold;
+}
+.titr li{
+    margin: 0 15px ;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.titr li:hover{
+    background-color: rgb(173, 173, 255);
+}
+.dokme2{
+   border-radius: 50px;
+    width: 260px;
+    height: 50px;
+    background-color:#3b82f6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 10% ;
+    
+}
+.dokme2 img{
+    width: 80%;
+    margin: auto;
+}
+.dokmeaval{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 92%;
+}
+.banner img{
+    width: 750px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.banner p{
+    direction: rtl;
+
+    line-height: 2;
+}
+.pic{
+    width: 1024px;
+    height: 853px;
+    margin-top: 5%;
+    max-width: 100%;
+}
+.banner h1{
+    direction: rtl;
+    margin-inline-end: 100px;
+    
+}
+.bold-text{
+    font-size: 450%;
+    color: #3b82f6;
+    font-weight: bold;
+}
+.buttons {
+  display: flex;
+  gap: 16px;           
+  margin-top: 24px;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 999px;  
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+
+.btn-outline {
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+  border: 2px solid #3b82f6;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+.products-header {
+  text-align: center;
+  margin: 60px 0 30px;
+}
+
+.products-header h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.tabs-box {
+  display: inline-flex;
+  gap: 8px;
+  padding: 8px;
+  background: #eef3f9;
+  border-radius: 999px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.tab.active {
+  background: #3b82f6;
+  color: #fff;
+} 
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin-top: 70px;
+  
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 86%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+  direction: rtl;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 15px;
+  direction: rtl;
+}
+
+.price {
+  font-size: 15px;
+  color: #3b82f6;
+  display: block;
+  margin-top: 20px;
+  direction: ltr;
+}
+
+
+
+.footer {
+    background: #3b82f6;
+    color: white;
+    padding: 40px 60px;
+    direction: rtl;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.fa-logo{
+  width: 90px;
+  height: 40px;
+
+}
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram i {
+    font-size: 28px;
+    margin-top: 10PX;
+}
+.icone{
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+}
+.icone:hover{
+ 
+  color: indianred;
+  scale: 1.2;
+}
+.enamad img {
+    width: 130px;
+    margin-right: 90px;
+    
+    
+}
+
+
+.video{
+
+  width: 500px;
+  border-radius: 20px;
+  background-color: #e7e7e7db;
+  margin-right: 40px;
+}
+
+.audio{
+  margin-top: 40px;
+  margin: auto;
+  text-align: center;
+}
+.aks{
+  height: 400px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  
+}
+.media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.table-box{
+  text-align: center;
+
+}
+table{
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 50px auto;
+  
+}
+td{
+  border: 3px solid black;
+}
+
+
+.appointment-box{
+  max-width:600px;
+  margin:50px auto;
+  background:#ffffff;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.appointment-box h2{
+  text-align:center;
+  color:#0d6efd;
+  margin-bottom:20px;
+}
+
+.appointment-box input,
+.appointment-box select,
+.appointment-box textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:14px;
+}
+
+.appointment-box button{
+  width:100%;
+  padding:12px;
+  background:#0d6efd;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.appointment-box button:hover{
+  background:#0b5ed7;
+}
+
+@media (max-width:768px){
+  .appointment-box{
+    margin:20px;
+    padding:15px;
+  }
+}
+.tik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-right: 210px;
+    color: rgb(0, 0, 0);
+    gap: 6px;
+}
+textarea{
+  resize:none;
+}
+
+  
+

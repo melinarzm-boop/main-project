@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="appointment-box">
+  <h2>فرم ثبت نوبت</h2>
+
+  <form action="#" method="post">
+    
+    <input type="text" name="fullname" placeholder="نام و نام خانوادگی" required>
+    
+    <input type="tel" name="phone" placeholder="شماره تماس" required>
+    <div class="tik">
+                <Label ><input type="checkbox" name="" id="" >مرا به خاطر بسپار</Label>
+
+            
+                <label for="" class="jens"><input type="radio" name="moans" id="">مونث</label>
+                <label for="" class="jens"><input type="radio" name="moans" id="">مذکر</label>
+            </div>
+    <select name="service" required>
+      <option value="">انتخاب نوع خدمت</option>
+      <option value="mri">MRI</option>
+      <option value="ct">سی تی اسکن</option>
+      <option value="sono">سونوگرافی</option>
+    </select>
+    
+    <input type="date" name="date" required>
+    
+    <textarea name="description" rows="3" placeholder="توضیحات (اختیاری)"></textarea>
+    
+    <button type="submit">ثبت نوبت</button>
+
+  </form>
+</div>
+</body>
+</html>
